@@ -31,11 +31,11 @@ function encriptar() {
     let muñeco = document.getElementById("muñeco");
 
     let textoCifrado = texto
-    .replace(/enter/gi, "e")
-    .replace(/imes/gi, "i")
-    .replace(/ai/gi, "a")
+    .replace(/ufat/gi, "u")
     .replace(/ober/gi, "o")
-    .replace(/ufat/gi, "u");
+    .replace(/ai/gi, "a")
+    .replace(/imes/gi, "i")
+    .replace(/enter/gi, "e");
 
     if (texto.length != 0) {
         document.getElementById("texto").value = textoCifrado;
